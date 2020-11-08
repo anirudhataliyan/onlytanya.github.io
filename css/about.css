@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url("../img/aboutbg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: flex-end;
+    padding: 0px 40px 0px 40px;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 15px;
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+}
+
+.navbar li a:hover{
+    color: lightgrey;
+}
+
+.about{
+    width: 35%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: -70px;
+    font-size: 115%;
+}
+
+.profile{
+    width: 150px;
+    margin-left: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:900px){
+    .about{
+        margin-top: 50px;
+    }
+}

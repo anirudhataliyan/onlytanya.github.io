@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url("../img/contactbg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contact{
+    margin: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: flex-end;
+    padding: 0px 40px 0px 40px;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 15px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+}
+
+.navbar li a:hover{
+    color: beige;
+}
+
+.contact{
+    font-size: 125%;
+    list-style: none;
+    
+}
+
+.con{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width:600px){
+   .contact{
+    font-size: 90%
+   }
+}
