@@ -27,12 +27,12 @@ body{
 
 .navbar li a{
     text-decoration: none;
-    color: black;
+    color: peachpuff;
     font-size: 130%;
 }
 
 .navbar li a:hover{
-    color: lightgrey;
+    color: midnightblue;
 }
 
 .about{
@@ -42,6 +42,7 @@ body{
     margin: auto;
     margin-top: -70px;
     font-size: 115%;
+    color: peachpuff;
 }
 
 .profile{
