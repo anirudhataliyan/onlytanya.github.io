@@ -63,8 +63,28 @@ body{
     cursor: default;
 }
 
-@media only screen and (max-width:900px){
-    .wel{margin-top: 100px;
-        
+@media only screen and (max-height: 1100px) and (max-width: 800px){
+    .wel{
+        margin-top: 100px;
+    }
+
+}
+
+@media only screen and (min-height: 1100px){
+    .wel{
+        margin-top: 250px;
+    }
+
+}
+
+@media only screen and (max-width:700px) and (max-height:800px){
+    .wel{
+        color: darkgray;
+    }
+}
+
+@media only screen and (orientation:portrait){
+    .wel{
+        font-size: 170%;
     }
 }
