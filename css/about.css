@@ -55,8 +55,18 @@ body{
     overflow: hidden;
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (orientation:portrait){
     .about{
-        margin-top: 50px;
+        font-size: 90%;
+        margin-top: auto;
+        width: 70%;
+    }
+}
+
+
+@media only screen and (min-height:900px){
+    .about{
+        font-size: 175%;
+        margin-top: auto;
     }
 }
